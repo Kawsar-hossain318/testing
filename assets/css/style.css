@@ -1,0 +1,525 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common css */
+a{
+    text-decoration: none;
+}
+/* full website */
+#full_website{
+    width: 100%;
+    max-width: 1920px;
+}
+/* header css start here */
+#header{
+    width: 100%;
+    max-width: 1165px;
+    margin: 0 auto;
+}
+/* header first part start here */
+.header_one{
+    display: flex;
+    padding-top: 40px;
+}
+.header_one .nav_brand{
+    width: 340px;
+}
+.header_one .nav_brand h4{
+    color: #1f373d;
+    font-size: 20px;
+}
+.header_one .menu{
+    width: 555px;
+}
+.header_one .menu ul{
+}
+.header_one .menu ul li{
+    display: inline-block;
+}
+.header_one .menu ul li a{
+    font-size: 14px;
+    text-transform: capitalize;
+    padding: 0 15px;
+    color: #3d5257;
+    font-weight: normal;
+}
+.header_one .buttons{
+    width: 275px;
+}
+.header_one .buttons ul{
+}
+.header_one .buttons ul li{
+    display: inline-block;
+}
+.header_one .buttons ul li p{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.header_one .buttons ul li a{
+    text-transform: capitalize;
+    font-size: 12px;
+    color: #1f373d;
+    margin: 0 0 0 20px;
+    padding: 8px 14px;
+    background: #ffcc01;
+    font-weight: normal;
+    border-radius: 6px;
+}
+/* header second part start here */
+.header_two{
+    position: relative;
+    height: 670px;
+}
+.header_two .layer_one{
+    width: 100%;
+    max-width: 960px;
+    height: 630px;
+    background: #96bece;
+    margin-top: 40px;
+    position: absolute;
+    right: 30px;
+}
+.header_two_txt{
+    position: absolute;
+    width: 45%;
+    z-index: 111;
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1f373d;
+    top: 155px;
+}
+.header_two_search_box #search{
+    position: absolute;
+    width: 460px;
+    height: 50px;
+    top: 340px;
+    z-index: 222;
+    border: none;
+    border-radius: 6px;
+}
+.header_two_search_box img{
+    position: absolute;
+    top: 358px ;
+    z-index: 300;
+}
+input#search {
+    padding: 0px 25px;
+}
+.search_text{
+    width:115px;
+    background: #ffcc01;
+    border: none;
+    position: absolute;
+    top: 340px;
+    left: 345px;
+    z-index:4000;
+    height: 50px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.layer_two{
+    width: 590px;
+    height: 70px;
+    background: #ffcc01;
+    position: absolute;
+    right: 30px;
+    top: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.layer_phone a{
+    color: #1f373d;
+}
+.layer_loction a{
+    color: #1f373d;
+}
+.layer_loction {
+    padding-right: 50px;
+}
+.layer_phone {
+    padding: 0 30px;
+}
+.scroll .sc2{
+    position: absolute;
+    top: 640px;
+}
+.scroll .sc1{
+    position: absolute;
+    top: 560px;
+    left: 3px;
+}
+/* second compnay stattics start here */
+#company_statistics{
+    width: 100%;
+    max-width: 1165px;
+    height: 650px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 70px;
+}
+.company_txt{
+    width: 50%;
+    padding-top: 170px;
+}
+.company_txt h2{
+    font-size: 45px;
+    text-transform: capitalize;
+    color: #1f373d;
+    width: 70%;
+    padding-bottom: 60px;
+}
+.company_txt p{
+    font-size: 14px;
+    padding-top: 30px;
+    color: #3d5257;
+    text-align: justify;
+    width: 90%;
+    line-height: 25px;
+}
+.company_boxes{
+    width: 50%;
+    padding-top: 145px;
+}
+.company_boxes .box{
+    width: 200px;
+    height: 200px;
+    background: #f6f5f4;
+    margin: 25px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.company_boxes .box h1{
+    font-size: 40px;
+    color: #ffcc01;
+    font-weight: 700;
+}
+.company_boxes .box p{
+    color: #1f373d;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+#room_prices{
+    background: #f6f5f4;
+}
+.room_rents_price{
+    width: 100%;
+    max-width: 1165px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.room_rents_price h2{
+    text-transform: capitalize;
+    font-size: 40px;
+    width: 44%;
+    color: #1f373d;
+    padding: 65px 0 80px 0;
+}
+.room_boxes{
+    width: 100%;
+
+}
+.room_box{
+    float: left;
+    width: 100%;
+    max-width: 350px;
+    height: 500px;
+    background: #b1d7e8;
+    margin: 18px;
+    position: relative;
+    box-shadow: 0 10px 20px -6px #e7e7e7;
+}
+.room_box .layer{
+    width: 100%;
+    max-width: 350px;
+    height: 120px;
+    background: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.room_box .layer h5{
+    text-transform: capitalize;
+    padding: 25px 0 0 20px;
+    color: #3d5257;
+}
+.room_box .layer h6{
+    text-transform: capitalize;
+    padding: 10px 0 0 20px;
+    color: #ffcc01;
+    font-size: 18px;
+}
+.room_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px 20px 0 0;
+}
+.room_icon{
+    display: flex;
+    flex-direction: row;
+}
+.room_icon p{
+    padding-top: 10px;
+    font-size: 13px;
+    color: #d3d8e0;
+}
+.room_search_box #search{
+    width: 460px;
+    height: 50px;
+    z-index: 222;
+    border: none;
+    border-radius: 6px;
+    margin: 60px 0 0 18px;
+}
+.room_search_box img{
+    display: none;
+}
+input#search {
+    padding: 0px 35px;
+}
+.room_search_text{
+    width:115px;
+    background: #ffcc01;
+    border: none;
+    height: 50px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px -30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* responsive here */
+@media (max-width:700px){
+    .header_one{
+        display: block;
+        padding-top: 10px;
+    }
+    .header_two{
+        height: 485px;
+    }
+    .header_one .nav_brand{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .header_one .menu{
+        width: 100%;
+        text-align: center;
+    }
+    .header_one .buttons{
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .header_two .layer_one {
+        width: 80%;
+        height: 500px;
+        right: 0;
+    }
+    .header_two_txt {
+        width: 90%;
+        font-size: 24px;
+        padding-left: 10px;
+    }
+    .header_two_search_box #search {
+        position: absolute;
+        width: 280px;
+        top: 300px;
+        left: 10px;
+    }
+    .header_two_search_box img {
+        top: 320px;
+        left: 15px;
+    }
+    .search_text {
+        width: 115px;
+        background: #ffcc01;
+        border: none;
+        position: absolute;
+        top: 300px;
+        left: 225px;
+    }
+    .layer_two {
+        width: 70%;
+        height: 60px;
+        right: 0px;
+        top: 480px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .scroll .sc1 {
+        position: absolute;
+        top: 420px;
+        left: 20px;
+    }
+    .layer_phone {
+        padding: 0 15px;
+        font-size: 14px;
+    }
+    .scroll .sc2 {
+        position: absolute;
+        top: 500px;
+        left: 18px;
+    }
+    .layer_loction {
+        padding-right: 5px;
+        font-size: 14px;
+    }
+    #company_statistics {
+        width: 100%;
+        height: 650px;
+        display: block;
+    }    
+    .company_txt {
+        width: 100%;
+        padding-top: 135px;
+    }
+    .company_txt h2 {
+        font-size: 38px;
+        width: 90%;
+        padding-bottom: 30px;
+        text-align: center;
+        padding-left: 35px;
+    }
+    .company_txt p {
+        width: 100%;
+        text-align: center;
+        padding: 15px 12px;
+    }
+    .company_boxes {
+        width: 100%;
+        padding-top: 40px;
+        padding-left: 5%;
+    }
+    .company_boxes .box {
+        width: 170px;
+        height: 170px;
+        margin: 25px;
+    }
+    .company_boxes .box h1 {
+        font-size: 35px;
+    }
+    .company_boxes .box p {
+        font-size: 12px;
+    }
+    #room_prices {
+        margin-top: 370px;
+    }
+    .room_rents_price h2 {
+        font-size: 38px;
+        width: 90%;
+        color: #1f373d;
+        padding: 35px 0 30px 20px;
+    }
+        
+}
+/* mobile responsive here */
+@media (max-width:400px){
+    .header_one .menu ul li a{
+        padding: 0 8px;
+    }
+    .header_two_search_box #search {
+        top: 285px;
+    }
+    .header_two_search_box img {
+        top: 302px;
+    }
+    .search_text {
+        top: 285px;
+    }
+    .layer_two {
+        width: 65%;
+        top: 445px;
+        height: 55px;
+    }    
+    .layer_phone {
+        padding: 0 5px;
+        font-size: 12px;
+    }
+    .layer_loction {
+        padding-right: 5px;
+        font-size: 12px;
+    }
+    .header_two_txt {
+        width: 100%;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .header_two .layer_one {
+        height: 460px;
+    }
+    .scroll .sc1 {
+        top: 380px;
+    }
+    .scroll .sc2 {
+        top: 455px;
+        left: 18px;
+    }
+    .header_two {
+        height: 440px;
+    }
+    #company_statistics {
+        width: 100%;
+        height: 650px;
+        display: block;
+    }    
+    .company_txt {
+        width: 100%;
+        padding-top: 125px;
+    }
+    .company_txt h2 {
+        font-size: 32px;
+        width: 85%;
+        padding-bottom: 30px;
+        text-align: center;
+        padding-left: 40px;
+    }
+    .company_txt p {
+        color: #3d5257;
+        width: 100%;
+        line-height: 20px;
+        text-align: center;
+        padding: 15px 12px;
+    }
+    .company_boxes {
+        width: 100%;
+        padding-top: 40px;
+        padding-left: 5%;
+    }
+    .company_boxes .box {
+        width: 150px;
+        height: 150px;
+        margin: 15px;
+    }
+    .company_boxes .box h1 {
+        font-size: 35px;
+    }
+    .company_boxes .box p {
+        font-size: 12px;
+    }
+    
+}
